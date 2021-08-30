@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/chamatt/node-clean-architecture-tdd/issues"
   },
-  "homepage": "https://github.com/chamatt/node-clean-architecture-tdd#readme"
+  "homepage": "https://github.com/chamatt/node-clean-architecture-tdd#readme",
+  "devDependencies": {
+    "git-commit-msg-linter": "^3.2.8"
+  }
 }
