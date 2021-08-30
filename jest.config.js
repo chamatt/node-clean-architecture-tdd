@@ -6,6 +6,11 @@ module.exports = {
   coverageProvider: 'v8',
   testEnvironment: 'node',
   transform: {
-    '.+\\.ts$': 'ts-jest'
-  }
-}
+    '.+\\.ts$': 'ts-jest',
+  },
+  globals: {
+    'ts-jest': {
+      isolatedModules: true,
+    },
+  },
+};
